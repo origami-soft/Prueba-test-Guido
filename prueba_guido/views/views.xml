@@ -1,19 +1,17 @@
 <odoo>
   <data>
     <!-- explicit list view definition -->
-<!--
-    <record model="ir.ui.view" id="test_guido.list">
-      <field name="name">test_guido list</field>
-      <field name="model">test_guido.test_guido</field>
-      <field name="arch" type="xml">
-        <tree>
-          <field name="name"/>
-          <field name="value"/>
-          <field name="value2"/>
-        </tree>
-      </field>
+<record id="crm_lead_view_form_" model="ir.ui.view"> 
+        <field name="name">crm.lead.view.form.inherit.test</field> 
+        <field name="model">crm.lead</field> 
+        <field name="inherit_id" ref="crm.crm_lead_view_form"/> 
+        <field name="arch" type="xml"> 
+            <xpath expr="//field[@name=team_id]" position="after"> 
+               <field name= "prueba">
+            </xpath> 
+
+        </field> 
     </record>
--->
 
     <!-- actions opening views on models -->
 <!--
