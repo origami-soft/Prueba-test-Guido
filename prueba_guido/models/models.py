@@ -8,15 +8,15 @@ class prueba_prueba(models.Model):
     name = fields.Char(string='Nombre')
 
 
-# class crm_lead(models.Model):
-#     _inherit = 'crm.lead'
+class crm_lead(models.Model):
+    _inherit = 'crm.lead'
 
-#     prueba = fields.Char(string='Prueba')
-#     selecction = fields.Char(string='Selection')
+    prueba = fields.Char(string='Prueba')
+    selecction = fields.Char(string='Selection')
 
 
-# class sale_order(models.Model):
-#     _inherit = 'sale.order'
+class sale_order(models.Model):
+    _inherit = 'sale.order'
 
-#     prueba = fields.Char(string='Prueba')
+    prueba = fields.Char(string='Prueba')
 
