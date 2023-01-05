@@ -9,7 +9,6 @@
             <xpath expr="//field[@name=team_id]" position="after"> 
                <field name= "prueba">
             </xpath> 
-
         </field> 
     </record>
 
