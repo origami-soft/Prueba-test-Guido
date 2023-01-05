@@ -1,18 +1,17 @@
 # -*- coding: utf-8 -*-
 
-# from odoo import models, fields, api
+from odoo import models, fields, api
 
 
-# class test_guido(models.Model):
-#     _name = 'test_guido.test_guido'
-#     _description = 'test_guido.test_guido'
+class crm_lead(models.Model):
+    _inherit = 'crm.lead'
 
-#     name = fields.Char()
-#     value = fields.Integer()
-#     value2 = fields.Float(compute="_value_pc", store=True)
-#     description = fields.Text()
-#
-#     @api.depends('value')
-#     def _value_pc(self):
-#         for record in self:
-#             record.value2 = float(record.value) / 100
+    prueba = fields.Char(string='Prueba')
+    selecction = fields.Char(string='Selection')
+
+
+class sale_order(models.Model):
+    _inherit = 'sale.order'
+
+    prueba = fields.Char(string='Prueba')
+
