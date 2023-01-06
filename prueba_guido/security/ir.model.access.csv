@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_test_guido_test_guido,test_guido.test_guido,model_test_guido_test_guido,base.group_user,1,1,1,1
