@@ -1,6 +1,6 @@
 <odoo>
   <data>
-    <!-- explicit list view definition -->
+    <!-- explicit list view definition
     <record id="crm_lead_view_form_" model="ir.ui.view"> 
       <field name="name">crm.lead.view.form.inherit.test</field> 
       <field name="model">crm.lead</field> 
@@ -12,7 +12,7 @@
           </div>
         </xpath> 
       </field> 
-  </record>
+  </record> -->
 
     <!-- actions opening views on models -->
 <!--
