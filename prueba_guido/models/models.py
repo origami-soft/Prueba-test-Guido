@@ -2,12 +2,6 @@
 
 from odoo import models, fields, api
 
-class prueba_prueba(models.Model):
-    _name = 'prueba.prueba'
-
-    name = fields.Char(string='Nombre')
-
-
 class crm_lead(models.Model):
     _inherit = 'crm.lead'
 
