@@ -10,4 +10,5 @@ class crm_lead(models.Model):
 
 class sale_order(models.Model):
     _inherit = 'sale.order'
-    prueba = fields.Char(string='SALES')
+    
+    sale_team = fields.Many2one('crm.team',string='SALES')
