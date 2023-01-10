@@ -12,4 +12,3 @@ class sale_order(models.Model):
     _inherit = 'sale.order'
 
     prueba = fields.Char(string='Prueba')
-
