@@ -8,10 +8,6 @@ class crm_lead(models.Model):
     prueba = fields.Char(string='Prueba')
     selecction = fields.Char(string='Selection')
 
-
-    
-
 class sale_order(models.Model):
     _inherit = 'sale.order'
-
     prueba = fields.Char(string='SALES')
