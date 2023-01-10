@@ -11,4 +11,4 @@ class crm_lead(models.Model):
 class sale_order(models.Model):
     _inherit = 'sale.order'
 
-    prueba = fields.Char(string='Prueba')
+    prueba = fields.Char(string='SALES')
